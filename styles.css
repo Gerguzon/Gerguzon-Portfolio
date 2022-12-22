@@ -1,0 +1,63 @@
+:root {
+    --font: Helvetica ;
+    --naranjo: #fe9b41; 
+    --negro: #000000; 
+    --titulos: 700 2rem/normal var(--font); 
+    --subtitles: 500 1.25rem/normal var(--font); 
+    --content: 400 1rem/normal var(--font); 
+    --tituloproyectos: 700 1.5rem/normal var(--font); 
+    --categoria: 700 2rem/normal var(--font); 
+    --debug: border: 1px solid red;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--font);
+}
+
+
+
+.wrapper {
+    width: 288px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Seccion HERO */
+
+.hero {
+    width: 288px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+  
+    
+}
+
+.hero figure {
+    width: 288px;
+    height: 300px;
+    margin: 32px 0 0 0 ;
+    background-color: var(--naranjo);
+    border-radius: 36px;
+}
+
+.hero h1 {
+    margin: 32px 0 0 0 ;
+   
+    font: var(--titulos);
+}
+
+.hero p {
+    margin: 32px 0 32px 0 ;
+}
+
+.hero span {
+    width: 30px;
+    height: 34px;
+    margin: 0 auto;
+
+}
