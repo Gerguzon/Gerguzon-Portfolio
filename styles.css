@@ -29,11 +29,9 @@ body {
 
 .hero {
     width: 288px;
-    height: 100vh;
+    
     display: flex;
     flex-direction: column;
-   
-  
     
 }
 
@@ -55,9 +53,65 @@ body {
     margin: 32px 0 32px 0 ;
 }
 
-.hero span {
+.hero a {
     width: 30px;
     height: 34px;
     margin: 0 auto;
+
+}
+
+/*Categoria*/
+
+h3 {
+    font: var(--categoria);
+    text-decoration: underline;
+    margin: 32px 0 32px 0;
+}
+
+/*Proyecto*/
+
+.proyecto {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.proyecto h2 {
+    margin: 16px 0 16px 0 ;
+}
+
+.proyecto figure {
+    height: 220px;
+    width: 288px;
+    border-radius: 36px;
+    margin: 16px 0 16px 0;
+    
+}
+
+.proyecto figure img {
+    height: 220px;
+    width: 288px;
+    
+    box-shadow: 2px 2px 8px var(--negro);
+}
+
+.proyecto p {
+    font: var(--content);
+    margin: 16px 0 16px 0;
+}
+
+.proyecto a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 288px;
+    border-radius: 36px;
+    margin: 16px 0 0 0;
+    background-color: var(--naranjo);
+    font:  var(--subtitles);
+    color: var(--negro);
+    text-decoration: none;
 
 }
