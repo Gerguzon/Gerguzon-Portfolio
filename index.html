@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Gerguzon</title>
 </head>
 <body>
@@ -15,18 +15,16 @@
                 <img src="" alt="">
             </figure>
 
-            <h1>Hi <br> I'm Gerguzon</h1>
-            <p>I'm learning a lot of things and these are projects that I made :)</p>
-
-            <a href="#frontend">
-                <img src="./assets/flecha.svg" alt="Flecha hacia abajo">
-            </a>
-           
-            
+            <div>
+                <h1>Hi <br> I'm Gerguzon</h1>
+                <p>I'm learning a lot of things and these are projects that I made :)</p>
+            </div>
 
         </div>
 
-
+        <a href="#frontend" class="flecha">
+            <img src="./assets/flecha.svg" alt="Flecha hacia abajo">
+        </a>
         <h3 id="frontend">Front End</h3>
 
     <section class="frontend-projects">
@@ -36,9 +34,44 @@
             <figure class="imagen-proyecto">
                 <img src="./assets/yardSale.png" alt="Landing page de yardSale">
             </figure>
-            <p>Landing page de Yard Sale, una tienda online donde aprendí a manejar el DOM con javascript de manera básica. </p>
-            <a href="https://gerguzon.github.io/javascript-practico/">Ver proyecto</a>
-            <a href="https://github.com/Gerguzon/javascript-practico">Ver código</a>
+            
+            <div class="buttons-container">
+                <p>Landing page de Yard Sale, una tienda online donde aprendí a manejar el DOM con javascript de manera básica. </p>
+
+                <button class="button" >
+                    <a href="https://github.com/Gerguzon/javascript-practico">Ver código</a>
+                </button>
+                
+                <button class="button">
+                    <a href="https://gerguzon.github.io/javascript-practico/">Ver proyecto</a>    
+                </button>
+            </div>
+
+            
+        </div>
+
+        <div class="proyecto">
+
+            
+            <h2>Portafolio de Jaume</h2>
+            <figure class="imagen-proyecto">
+                <img src="./assets/portafolioJaume.jpg"  alt="Landing page Portafolio de Jaume" />
+            </figure>
+
+            
+            <div class="buttons-container">
+                <p> El protafolio de Jaume es un proyecto con mobiles design usando HTML Y CSS.</p>
+
+                <button class="button">
+                     <a href="https://gerguzon.github.io/javascript-practico/">Ver proyecto</a> 
+                </button>
+                <button class="button"> 
+                    <a href="https://github.com/Gerguzon/javascript-practico">Ver código</a> 
+                </button>
+            </div>
+
+
+           
         </div>
 
 

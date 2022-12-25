@@ -1,0 +1,59 @@
+@import url(/css/desktop.css);
+@import url(/css/button.css);
+@import url(/css/hero.css);
+@import url(/css/wrapper.css);
+@import url(/css/project.css);
+
+:root {
+    --font: Helvetica ;
+    --naranjo: #fe9b41; 
+    --negro: #000000; 
+    --titulos: 700 2rem/normal var(--font); 
+    --subtitles: 500 1.25rem/normal var(--font); 
+    --content: 400 1rem/normal var(--font); 
+    --tituloproyectos: 700 1.5rem/normal var(--font); 
+    --categoria: 700 2rem/normal var(--font); 
+    --debug: border: 1px solid red;
+}
+
+
+body {
+    margin: 0;
+    font-family: var(--font);
+}
+
+
+
+.flecha {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: 34px;
+    margin: 0 auto;
+
+}
+
+
+/* Seccion HERO */
+
+
+
+/*Categoria*/
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font: var(--categoria);
+    text-decoration: underline;
+    margin: 32px 0 32px 0;
+}
+
+.frontend-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+/*Proyecto*/
+
