@@ -1,8 +1,8 @@
-@import url(/css/desktop.css);
-@import url(/css/button.css);
-@import url(/css/hero.css);
-@import url(/css/wrapper.css);
-@import url(/css/project.css);
+@import url('/css/desktop.css');
+@import url('/css/button.css');
+@import url('/css/hero.css');
+@import url('/css/wrapper.css');
+@import url('/css/project.css');
 
 :root {
     --font: Helvetica ;
